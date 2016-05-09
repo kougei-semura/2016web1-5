@@ -32,9 +32,39 @@
     <h1>オーディオ・ビデオ</h1>
     <p><video src="fuji.mp4" width"320" controls autoplay>video要素をサポートしていないブラウザで閲覧されています。
     他のブラウザでご覧ください。</video></p>
-    <p><audio src="ホトトギス.mp3 controls>audio要素をサポートしていないブラウザで閲覧されています。他のブラウザでご覧ください。</audio></p>
+    <p><audio src="ホトトギス.mp3" controls>audio要素をサポートしていないブラウザで閲覧されています。他のブラウザでご覧ください。</audio></p>
     
     <h1>表組み</h1>
-    <table></table>
+    <table>
+      <tr><th>名</th><th>量</th><th>単位</th></tr>
+      <tr><td>牛ばら肉</td><td>500</td><td>g</td></tr>
+      <tr><td>たまねぎ</td><td>3</td><td>個</td></tr>
+      <tr><td>にんじん</td><td>1</td><td>本</td></tr>
+      <tr><td>カレールー</td><td>100</td><td>g</td></tr>
+    </table>
+    
+    <h1>フォーム</h1>
+    <form id="top" action="#" method="post">
+      <p><input type="text" name="input1"</p>
+      <p><input type="submit" value="送信">
+      <input type="reset" value="リセット"</p>
+      <p>テキストボックス<input type="text" name="input2"</p>
+    </form>
+    <p>ラジオボタン
+    <input type="radio" name="input3" value="yes"   id="0" checked><ladel for="0">はい</ladel>
+    <input type="radio" name="input3" value="yesno" id="1"><ladel for="1">どちらでもない</ladel>
+    <input type="radio" name="input3" value="no"    id="2"><ladel for="2">いいえ</ladel>
+    </p>
+    <p>チェックボックス
+    <input type="checkbox" name="input4" value="yes"   id="0" checked><ladel for="0">はい</ladel>
+    <input type="checkbox" name="input4" value="yesno" id="1"><ladel for="1">どちらでもない</ladel>
+    <input type="checkbox" name="input4" value="no"    id="2"><ladel for="2">いいえ</ladel>
+    </p>
+    <p>セレクトメニュー
+    <select name="input5">
+      <option value="beef">ビーフカレー
+      <option value="seafood">シーフードカレー
+      <option value="chicken" selected>チキンカレー
+    </select></p>
   </body>
 </html>
